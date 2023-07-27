@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webinar Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Join Our Webinar!<span><br /></span></h1>
+              <h5>❤ Discover the latest trends in <br>personalized learning ❤❤❤...</h5>
+            </span> 
+            <a href="registration.html" class="btn btn2">Sign Up</a>
+
+          
+          <h6><strong>Webinar Details</strong></h6>
+          <h6>Date: <span id="date"></span></h6>
+          <h6>Time: <span id="time"></span></h6>
+          <h6>Duration: <span id="duration"></span></h6>
+        </div>
+      </div>
+    </div><br>
+    <div id="contact">
+        <div class="container1"> 
+            <div class="conatct-left">
+                <h1 class="sub-title">CONTACT US!</h1> <br>
+                <div class="con">
+                <p>💌 khatikdamini25@gmail.com</p>
+                <p>📞 9850422403</p>
+                <div class="conatct-right">
+                    <center>
+                        <form
+                        action="mailto:khatikdamini25@gmail.com"
+                        method="post"
+                        enctype="text/plain">
+                 <input type="text" name="Name" placeholder="Your Name" required>
+            
+                    <input type="email" name="Email" placeholder="Your Email " required>
+                    <textarea type="message"name="Message" rows="2" placeholder="Your Message "required></textarea><br>
+                   <button type="submit" class="btn btn2"> Submit</button></center>
+                </form>
+            </div> 
+            </div>   
+        </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>

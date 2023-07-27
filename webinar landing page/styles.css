@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #080808;
+  color: #fff;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(homebg.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.75;
+}
+.container {
+  padding: 10px 10%;
+}
+
+nav {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  color: #0c0c0c;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+.header-text {
+  margin-top: 20%;
+  font-size: 30px;
+}
+.header-text h1 {
+  margin-top: 20px;
+  font-size: 60px;
+  color: #0a0a0a;
+  font-weight: 700;
+}
+.header-text h5 {
+  color: #4d4246;
+}
+.header-text h6,
+p {
+  color: #4d4246;
+}
+/*--button--*/
+.btn {
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background: #0c0c0c;
+}
+.btn {
+  display: block;
+  margin: 40px auto;
+  width: fit-content;
+  border: 1px #ff004f;
+  padding: 14px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background: #0f0f0f;
+}
+/*contact*/
+.conatct-left {
+  flex-basis: 35%;
+}
+.container1 {
+  background-color: #999595;
+  width: auto;
+}
+.conatct-right {
+  flex-basis: 100%;
+}
+.conatct-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  border: 0;
+  outline: none;
+  width: 70%;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+form .btn2 {
+  padding: 14px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
